@@ -1,0 +1,9 @@
+export { default as BodySmall } from './BodySmall';
+export { default as BodyMedium } from './BodyMedium';
+export { default as BodyLarge } from './BodyLarge';
+export { default as HeadlineSmall } from './HeadlineSmall';
+export { default as HeadlineMedium } from './HeadlineMedium';
+export { default as HeadlineLarge } from './HeadlineLarge';
+export { default as LabelSmall } from './LabelSmall';
+export { default as LabelMedium } from './LabelMedium';
+export { default as LabelLarge } from './LabelLarge';
