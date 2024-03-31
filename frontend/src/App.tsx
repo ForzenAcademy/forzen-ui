@@ -1,34 +1,18 @@
-import React, { useState } from 'react';
-import {
-  Column,
-  BodyLarge,
-  BodyMedium,
-  Button,
-  Spacer,
-  Dimens,
-  Color,
-  LabelMedium,
-  Box,
-  Image,
-  Row,
-  OutlinedButton,
-  TextField,
-  BodySmall,
-} from 'forzen-ui';
+import React from 'react';
+import { Color, Colors } from 'forzen-ui';
 import './index.css';
-import { Modifier } from 'forzen-ui/dist/theme/modifier';
-import { Colors } from 'forzen-ui/dist/theme/color/color';
+import GalleryPage from './pages/Gallery/Gallery.page';
+import ThomasPage from './pages/Thomas.page';
 
 function App() {
   Color.primary = Colors.orange;
   Color.onPrimary = Colors.white;
-  Color.primaryContainer = '#f5f0ee';
+  Color.primaryContainer = Colors.white;
   Color.onBackground = Colors.black;
-  const array1to10 = Array.from({ length: 10 }, (_, i) => i + 1);
 
   return (
     <div className="App-container">
-      <Column
+      {/* <Column
         modifier={Modifier.background(Color.primaryContainer).padding(Dimens.x4).fillMaxSize()}
       >
         <TextField
@@ -91,7 +75,8 @@ function App() {
           <BodyLarge modifier={Modifier.weight(1)}>Home</BodyLarge>
           <BodyLarge modifier={Modifier.weight(1)}>Profile</BodyLarge>
         </Row>
-      </Column>
+      </Column> */}
+      <ThomasPage />
     </div>
   );
 }

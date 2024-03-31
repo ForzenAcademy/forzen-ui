@@ -1,3 +1,4 @@
 export { Dimens } from './dimens/dimens';
-export { Color } from './color/color';
+export * from './color/color';
 export { Typography } from './typography/typography';
+export { Modifier } from './modifier';

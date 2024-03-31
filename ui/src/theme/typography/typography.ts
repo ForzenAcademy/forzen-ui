@@ -57,4 +57,4 @@ export class TypographySet {
   }
 }
 
-export const Typography = new TypographySet(57, 45, 36, 12, 14, 16, 14, 12, 11);
+export const Typography = new TypographySet(36, 45, 57, 12, 14, 16, 11, 12, 14);
